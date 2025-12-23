@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex; /*side by side */
+    background-color: #E6E6E6;
+    height: 100vh;  /* Full screen center */
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    
+}
+input{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    margin: 5px 0; 
+    background-color:white ;
+     color: #A6A6A6;
+}
+
+.container{
+     display: flex;
+     box-sizing: border-box;
+}
+.login{
+    background-color: #F9F8F6;
+    padding: 10px;
+    text-align: center;
+}
+.login h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login h3{
+    margin: 10px 0;
+    color: #A6A6A6;
+    
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 8px auto;
+}
+.remember{
+     display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.remembr input[type="checkbox"]{
+    width: auto;   
+    height: auto;
+    margin: 0;
+}
+.remtext,.ftext{
+   color: #A6A6A6;
+}
+.btn-log{
+    width: 80%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: #FF6D1F;
+    color: white;
+    border: #FF6D1F;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.fa-brands{
+    font-size: larger;
+}
+.register{
+    background:linear-gradient(#F79A19,#FF6D1F,#F5C857);
+    color: white;
+    text-align: center;
+}
+
+.fa-user-plus{
+    font-size: 50px;
+    margin: 20px 0; /* top-bottom */
+}
+#p1{
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.btn-reg{
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+    background-color:#c64a08;
+    color: white;
+   text-transform: uppercase;
+   border: none;
+}
+
+.btn-reg:hover{
+    background-color:  rgb(59, 239, 74);
+    box-shadow:3px 3px chartreuse;
+    font-weight: bold;
+    
+}
+.btn-log:hover{
+ background-color:  rgb(59, 239, 74);
+  font-weight: bold;
+}
